@@ -49,7 +49,7 @@ export default function Getapi() {
 
 function upUsers(){
   let item ={name,email,address,id}
-  fetch(`http://localhost:4000/users${id}`,{
+  fetch(`http://localhost:4000/users/${id}`,{
     method:'PUT',
     headers:{
   'Accept':'application/json',
